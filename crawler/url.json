@@ -1,0 +1,199 @@
+{
+  "서울과학기술대학교": {
+    "메인": {
+      "boards": [
+        {
+          "name": "대학공지사항",
+          "url": "https://www.seoultech.ac.kr/service/info/notice",
+          "fetch": "static",
+          "selectors": {
+            "row": "tbody tr.body_tr",
+            "title": "td.tit.dn2 a",
+            "link": "td.tit.dn2 a",
+            "date": "td.dn5"
+          }
+        },
+        {
+          "name": "학사공지",
+          "url": "https://www.seoultech.ac.kr/service/info/matters",
+          "fetch": "static",
+          "selectors": {
+            "row": "tbody tr.body_tr",
+            "title": "td.tit.dn2 a",
+            "link": "td.tit.dn2 a",
+            "date": "td.dn5"
+          }
+        },
+        {
+          "name": "장학공지",
+          "url": "https://www.seoultech.ac.kr/service/info/janghak",
+          "fetch": "static",
+          "selectors": {
+            "row": "tbody tr.body_tr",
+            "title": "td.tit.dn2 a",
+            "link": "td.tit.dn2 a",
+            "date": "td.dn5"
+          }
+        },
+        {
+          "name": "대학원공지",
+          "url": "https://www.seoultech.ac.kr/service/info/graduate",
+          "fetch": "static",
+          "selectors": {
+            "row": "tbody tr.body_tr",
+            "title": "td.tit.dn2 a",
+            "link": "td.tit.dn2 a",
+            "date": "td.dn5"
+          }
+        },
+        {
+          "name": "취업공지",
+          "url": "https://www.seoultech.ac.kr/service/info/job",
+          "fetch": "static",
+          "selectors": {
+            "row": "tbody tr.body_tr",
+            "title": "td.tit.dn2 a",
+            "link": "td.tit.dn2 a",
+            "date": "td.dn5"
+          }
+        },
+        {
+          "name": "대학입찰",
+          "url": "https://www.seoultech.ac.kr/service/info/bid",
+          "fetch": "static",
+          "selectors": {
+            "row": "tbody tr.body_tr",
+            "title": "td.tit.dn2 a",
+            "link": "td.tit.dn2 a",
+            "date": "td.dn5"
+          }
+        },
+        {
+          "name": "채용정보",
+          "url": "https://www.seoultech.ac.kr/service/info/recruit",
+          "fetch": "static",
+          "selectors": {
+            "row": "tbody tr.body_tr",
+            "title": "td.tit.dn2 a",
+            "link": "td.tit.dn2 a",
+            "date": "td.dn5"
+          }
+        },
+        {
+          "name": "공모/외부행사",
+          "url": "https://www.seoultech.ac.kr/service/board/rec",
+          "fetch": "static",
+          "selectors": {
+            "row": "tbody tr.body_tr",
+            "title": "td.tit.dn2 a",
+            "link": "td.tit.dn2 a",
+            "date": "td.dn5"
+          }
+        },
+        {
+          "name": "등록금심의위원회",
+          "url": "https://www.seoultech.ac.kr/service/info/committee",
+          "fetch": "static",
+          "selectors": {
+            "row": "tbody tr.body_tr",
+            "title": "td.tit.dn2 a",
+            "link": "td.tit.dn2 a",
+            "date": "td.dn5"
+          }
+        },
+        {
+          "name": "코로나바이러스19 대응안내",
+          "url": "https://www.seoultech.ac.kr/service/info/covid19",
+          "fetch": "static",
+          "selectors": {
+            "row": "tbody tr.body_tr",
+            "title": "td.tit.dn2 a",
+            "link": "td.tit.dn2 a",
+            "date": "td.dn5"
+          }
+        },
+        {
+          "name": "코로나-19 대응안내",
+          "url": "https://www.seoultech.ac.kr/service/info/disease",
+          "fetch": "static",
+          "selectors": {
+            "row": "tbody tr.body_tr",
+            "title": "td.tit.dn2 a",
+            "link": "td.tit.dn2 a",
+            "date": "td.dn5"
+          }
+        },
+        {
+          "name": "코로나-19 수업운영계획",
+          "url": "https://www.seoultech.ac.kr/service/info/covid19/notice",
+          "fetch": "static",
+          "selectors": {
+            "row": "tbody tr.body_tr",
+            "title": "td.tit.dn2 a",
+            "link": "td.tit.dn2 a",
+            "date": "td.dn5"
+          }
+        },
+        {
+          "name": "시설운영현황",
+          "url": "https://www.seoultech.ac.kr/service/info/covid19/facilities",
+          "fetch": "static",
+          "selectors": {
+            "row": "tbody tr.body_tr",
+            "title": "td.tit.dn2 a",
+            "link": "td.tit.dn2 a",
+            "date": "td.dn5"
+          }
+        },
+        {
+          "name": "자유게시판",
+          "url": "https://www.seoultech.ac.kr/service/board/lost",
+          "fetch": "static",
+          "selectors": {
+            "row": "tbody tr.body_tr",
+            "title": "td.tit.dn2 a",
+            "link": "td.tit.dn2 a",
+            "date": "td.dn5"
+          }
+        },
+        {
+          "name": "자유발언대",
+          "url": "https://www.seoultech.ac.kr/service/board/free",
+          "fetch": "static",
+          "selectors": {
+            "row": "tbody tr.body_tr",
+            "title": "td.tit.dn2 a",
+            "link": "td.tit.dn2 a",
+            "date": "td.dn5"
+          }
+        },
+        {
+          "name": "벼룩시장",
+          "url": "https://www.seoultech.ac.kr/service/board/flea",
+          "fetch": "static",
+          "selectors": {
+            "row": "tbody tr.body_tr",
+            "title": "td.tit.dn2 a",
+            "link": "td.tit.dn2 a",
+            "date": "td.dn5"
+          }
+        }
+      ]
+    },
+    "기숙사": {
+      "boards": [
+        {
+          "name": "공지사항",
+          "url": "https://housing.seoultech.ac.kr/community/notice",
+          "fetch": "static",
+          "selectors": {
+            "row": "div.blog_list div.list",
+            "title": "h2.has_board_tag a",
+            "link": "h2.has_board_tag a",
+            "date": "div.date span"
+          }
+        }
+      ]
+    }
+  }
+}
