@@ -1,0 +1,8 @@
+Back/api/.env
+Back/api/__pycache__/
+__pycache__/
+*.pyc
+Back/api/.env
+Back/api/__pycache__/
+__pycache__/
+*.pyc
